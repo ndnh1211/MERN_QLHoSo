@@ -1,0 +1,18 @@
+.department_container {
+    padding: 16px;
+
+    .department_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .table {
+        .action {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            justify-content: center;
+        }
+    }
+}

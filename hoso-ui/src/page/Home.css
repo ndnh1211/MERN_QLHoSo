@@ -1,0 +1,10 @@
+.home-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    button {
+        width: 100px;
+        margin: 0 auto;
+    }
+}

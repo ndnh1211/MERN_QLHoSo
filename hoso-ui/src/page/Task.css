@@ -1,0 +1,16 @@
+.task_container {
+    padding: 16px;
+
+    .action {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .task_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,19 @@
+.login_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login_form {
+        width: 50vw;
+        height: 60vh;
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 1rem;
+
+        p {
+            margin-top: 20px;
+        }
+    }
+}

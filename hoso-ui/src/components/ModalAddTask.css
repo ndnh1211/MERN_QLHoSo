@@ -1,0 +1,16 @@
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    .form-item1,
+    .form-item2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .form-group label {
+            padding-bottom: 5px;
+        }
+    }
+}
