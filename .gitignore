@@ -4,13 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.env
 # testing
 /coverage
 
 # production
 /build
-
+/hoso-ui/build
+/hoso-ui/node_modules
 # misc
 .DS_Store
 .env.local
