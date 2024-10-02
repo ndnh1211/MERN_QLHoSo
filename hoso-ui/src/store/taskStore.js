@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { create } from 'zustand'
-const API_URL = `${process.env.REACT_APP_BACKEND_URL}/api`
+const API_URL = process.env.NODE_ENV === "development" ? `http://localhost:1000/api` : "/api"
 
 
 const useTaskStore = create((set) => ({
