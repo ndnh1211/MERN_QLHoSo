@@ -4,8 +4,8 @@
   "main": "./hoso-api/index.js",
   "type": "module",
   "scripts": {
-    "start": "cross-env NODE_ENV=production  node ./hoso-api/index.js",
-    "dev": "cross-env NODE_ENV=development nodemon ./hoso-api/index.js",
+    "start": "node ./hoso-api/index.js",
+    "dev": "nodemon ./hoso-api/index.js",
     "build": "npm install && npm install --prefix hoso-ui && npm run build --prefix hoso-ui"
   },
   "keywords": [],
