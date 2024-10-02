@@ -9,7 +9,7 @@ import Department from "../page/Department";
 import Login from "../page/auth/Login";
 import Signup from "../page/auth/Signup";
 import Account from "../page/Account";
-import Home from "../page/Home";
+import Home from "../page/home";
 import ValidateAccountProvider from "./validateAccountProvider";
 import ProtectedRoute from "./ProtectedRoute"
 
