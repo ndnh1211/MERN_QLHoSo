@@ -3,14 +3,13 @@ import {
     Navigate
 } from "react-router-dom";
 import App from "../App";
-import Home from "../page/Home";
 import Task from "../page/Task";
 import Workflow from "../page/Workflow";
 import Department from "../page/Department";
 import Login from "../page/auth/Login";
 import Signup from "../page/auth/Signup";
 import Account from "../page/Account";
-
+import Home from "../page/Home";
 import ValidateAccountProvider from "./validateAccountProvider";
 import ProtectedRoute from "./ProtectedRoute"
 
